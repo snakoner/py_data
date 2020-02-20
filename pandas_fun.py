@@ -32,7 +32,3 @@ def bar_plot_feature_missing_ratio(X):
     plt.show()
     return res
         
-  
-
-data = pd.read_csv('train.csv')
-bar_plot_feature_missing_ratio(data)
